@@ -1,0 +1,10 @@
+
+@media (min-width: 52rem) {
+.menu-btn { display: none; }
+.nav { position: static; max-height: none; border: 0; }
+.nav ul { flex-direction: row; align-items: center; gap: .25rem; padding: 0; }
+.nav a { padding: .5rem .75rem; }
+main { padding: 2rem 1.25rem; }
+.course-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.site-footer { grid-template-columns: 1fr 1fr; align-items: center; }
+}
