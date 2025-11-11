@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Design Studio Icon">
+  <rect width="64" height="64" rx="12" fill="#3ea7ff"/>
+  <path fill="#0b0d12" d="M14 18h36v20H14zM18 42h28v4H18zM22 48h20v4H22z"/>
+  <circle cx="24" cy="28" r="4" fill="#0b0d12"/>
+  <rect x="30" y="24" width="16" height="8" rx="2" fill="#0b0d12"/>
+</svg>

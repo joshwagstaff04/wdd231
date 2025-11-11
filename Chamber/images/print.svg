@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Print and Signs Icon">
+  <rect width="64" height="64" rx="12" fill="#3ea7ff"/>
+  <g fill="#0b0d12">
+    <!-- printer body -->
+    <rect x="14" y="22" width="36" height="20" rx="2" ry="2"/>
+    <!-- paper coming out -->
+    <rect x="18" y="12" width="28" height="10" rx="1" ry="1"/>
+    <!-- tray -->
+    <rect x="20" y="44" width="24" height="8" rx="1" ry="1"/>
+    <!-- small buttons -->
+    <circle cx="44" cy="32" r="1.5"/>
+    <circle cx="48" cy="32" r="1.5"/>
+  </g>
+</svg>

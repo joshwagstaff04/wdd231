@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Summit Strength Fitness",
+    "address": "45 E 200 N, Farmington, UT 84025",
+    "phone": "(801) 555-0001",
+    "website": "https://summitstrength.example.com",
+    "email": "hello@summitstrength.example.com",
+    "image": "images/fitness.svg",
+    "membershipLevel": 3,
+    "tagline": "Level up your performance."
+  },
+  {
+    "name": "Pioneer Roasters",
+    "address": "12 Main St, Kaysville, UT 84037",
+    "phone": "(801) 555-0002",
+    "website": "https://pioneerroasters.example.com",
+    "email": "orders@pioneerroasters.example.com",
+    "image": "images/coffee.svg",
+    "membershipLevel": 2,
+    "tagline": "Small-batch coffee, frontier spirit."
+  },
+  {
+    "name": "Ridge Outdoor Gear",
+    "address": "210 Canyon Rd, Farmington, UT 84025",
+    "phone": "(801) 555-0003",
+    "website": "https://ridgeoutdoor.example.com",
+    "email": "support@ridgeoutdoor.example.com",
+    "image": "images/outdoors.svg",
+    "membershipLevel": 1,
+    "tagline": "Be ready for any trail."
+  },
+  {
+    "name": "Lakeside Creative Studio",
+    "address": "99 Lagoon Dr, Farmington, UT 84025",
+    "phone": "(801) 555-0004",
+    "website": "https://lakesidecreative.example.com",
+    "email": "team@lakesidecreative.example.com",
+    "image": "images/design.svg",
+    "membershipLevel": 2,
+    "tagline": "Branding that ripples."
+  },
+  {
+    "name": "Farmington Fit Physical Therapy",
+    "address": "330 State St, Farmington, UT 84025",
+    "phone": "(801) 555-0005",
+    "website": "https://farmfitpt.example.com",
+    "email": "frontdesk@farmfitpt.example.com",
+    "image": "images/therapy.svg",
+    "membershipLevel": 3,
+    "tagline": "Recover. Move. Thrive."
+  },
+  {
+    "name": "Acme Print & Signs",
+    "address": "14 E Park Ln, Farmington, UT 84025",
+    "phone": "(801) 555-0006",
+    "website": "https://acmeprint.example.com",
+    "email": "quotes@acmeprint.example.com",
+    "image": "images/print.svg",
+    "membershipLevel": 1,
+    "tagline": "Your message—bold and clear."
+  },
+  {
+    "name": "Zions Bank – Farmington Branch",
+    "address": "10 N Main St, Farmington, UT 84025",
+    "phone": "(801) 555-0007",
+    "website": "https://zions.example.com/farmington",
+    "email": "farmington@zions.example.com",
+    "image": "images/bank.svg",
+    "membershipLevel": 2,
+    "tagline": "Local banking, strong roots."
+  }
+]
