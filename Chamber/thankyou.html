@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You | Farmington Chamber of Commerce</title>
+  <meta name="description" content="Thank you for applying to join the Farmington Chamber of Commerce." />
+  <meta name="author" content="Josh Wagstaff" />
+
+  
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+</head>
+<body>
+  <header>
+    <div class="site-header">
+      <a href="index.html" class="brand">
+        <span class="brand-title">Farmington Chamber of Commerce</span>
+      </a>
+
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <nav id="primary-nav" class="primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="thankyou-main">
+    <section class="thankyou-message">
+      <h1>Thank You for Your Application</h1>
+      <p>
+        We’ve received your membership application for the Farmington Chamber of Commerce.
+        A chamber representative will review your information and reach out to you soon.
+      </p>
+    </section>
+
+    <section class="application-summary">
+      <h2>Your Application Details</h2>
+
+      <dl class="summary-list">
+        <div>
+          <dt>First Name</dt>
+          <dd id="summary-first-name"></dd>
+        </div>
+        <div>
+          <dt>Last Name</dt>
+          <dd id="summary-last-name"></dd>
+        </div>
+        <div>
+          <dt>Email</dt>
+          <dd id="summary-email"></dd>
+        </div>
+        <div>
+          <dt>Mobile Phone</dt>
+          <dd id="summary-phone"></dd>
+        </div>
+        <div>
+          <dt>Business / Organization</dt>
+          <dd id="summary-organization"></dd>
+        </div>
+        <div>
+          <dt>Membership Level</dt>
+          <dd id="summary-membership"></dd>
+        </div>
+        <div>
+          <dt>Submitted At</dt>
+          <dd id="summary-timestamp"></dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Farmington Chamber of Commerce</p>
+  </footer>
+
+  <script>
+   
+    const menuToggle = document.querySelector('#menu-toggle');
+    const primaryNav = document.querySelector('#primary-nav');
+
+    if (menuToggle && primaryNav) {
+      menuToggle.addEventListener('click', () => {
+        primaryNav.classList.toggle('open');
+        menuToggle.classList.toggle('open');
+      });
+    }
+
+    
+    const yearSpan = document.querySelector('#year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+
+    
+    const params = new URLSearchParams(window.location.search);
+
+    const firstName = params.get('first-name') || '—';
+    const lastName = params.get('last-name') || '—';
+    const email = params.get('email') || '—';
+    const phone = params.get('phone') || '—';
+    const organization = params.get('organization') || '—';
+    const membership = params.get('membership-level') || '—';
+    const timestamp = params.get('timestamp') || '—';
+
+    document.querySelector('#summary-first-name').textContent = firstName;
+    document.querySelector('#summary-last-name').textContent = lastName;
+    document.querySelector('#summary-email').textContent = email;
+    document.querySelector('#summary-phone').textContent = phone;
+    document.querySelector('#summary-organization').textContent = organization;
+
+    
+    let membershipLabel = membership;
+    if (membership === 'np') membershipLabel = 'NP Membership';
+    if (membership === 'bronze') membershipLabel = 'Bronze Membership';
+    if (membership === 'silver') membershipLabel = 'Silver Membership';
+    if (membership === 'gold') membershipLabel = 'Gold Membership';
+
+    document.querySelector('#summary-membership').textContent =
+      membership ? membershipLabel : '—';
+
+    document.querySelector('#summary-timestamp').textContent = timestamp;
+  </script>
+</body>
+</html>
