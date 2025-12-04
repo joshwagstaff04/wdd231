@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Discover Farmington | Chamber of Commerce</title>
+
+  
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/home.css">
+ 
+  <script src="scripts/discover.js" type="module" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="index.html" aria-label="Farmington Chamber Home">
+        <img src="images/favicon.svg" alt="Farmington Chamber logo" class="brand-mark" width="28" height="28" />
+        <span class="brand-text">Farmington Chamber</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav"
+        aria-label="Menu">☰</button>
+
+      <nav id="siteNav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="discover.html"aria-current="page">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="discover-main">
+    <section class="discover-intro">
+      <h1>Discover Farmington</h1>
+      <p>
+        Farmington is a growing community that mixes outdoor access, family attractions,
+        and local businesses. This page highlights a few key places that make the area
+        a great place to live, visit, and build a business.
+      </p>
+
+      <div id="visit-message" class="visit-message" aria-live="polite"></div>
+    </section>
+
+    <section class="discover-grid-section">
+      <h2>Points of Interest</h2>
+      <p class="discover-grid-note">
+        Explore some of the local landmarks, parks, and destinations that draw people to Farmington
+        and the surrounding area.
+      </p>
+
+      <div id="discover-grid" class="discover-grid">
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+       <div class="wrap footer-grid">
+      <div>
+        <h2 class="footer-title">Farmington Chamber of Commerce</h2>
+        <address>
+          160 S Main St, Farmington, UT 84025<br />
+          <a href="tel:+18015551234">(801) 555-1234</a><br />
+          <a href="mailto:info@farmchamber.org">info@farmchamber.org</a>
+        </address>
+      </div>
+
+      <div class="dev-meta">
+        <p>&copy; <span id="year"></span> Farmington Chamber</p>
+        <p>Built by <strong>Josh Wagstaff</strong> • WDD 231</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
