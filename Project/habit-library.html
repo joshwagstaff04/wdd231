@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Josh Wagstaff">
+    <meta name="description"
+        content="Explore 20+ science-backed habits organized by energy, focus, environment, and everyday practices. Save favorites and integrate into your daily schedule.">
+    <meta property="og:title" content="Habit Library | High Performance Living Toolkit">
+    <meta property="og:description"
+        content="Browse and save 20+ science-backed habits to optimize your daily performance.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Habit Library | High Performance Living Toolkit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>High Performance Toolkit</h1>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="nav" id="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="habit-library.html" class="nav-link active">Habit Library</a>
+                    <a href="tools-planner.html" class="nav-link">Tools & Planner</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        
+        <section class="hero">
+            <div class="container">
+                <h1 style="color: var(--accent-green); text-align: center; margin-bottom: 1rem;">Complete Habit Library
+                </h1>
+                <p
+                    style="text-align: center; max-width: 700px; margin: 0 auto; color: var(--text-muted); font-size: 1.05rem;">
+                    Explore 20+ science-backed habits organized by pillar. Save your favorites to personalize your daily
+                    performance toolkit and integrate them into your schedule.</p>
+            </div>
+        </section>
+
+        
+        <section
+            style="padding: 3rem 2rem; background: linear-gradient(135deg, rgba(34, 197, 94, 0.08) 0%, transparent 100%); border-bottom: 1px solid var(--border);">
+            <div class="container" style="max-width: 800px;">
+                <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 2rem; align-items: center;">
+                    
+                    <div style="min-height: 280px; display: flex; align-items: center;">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;"
+                            role="img" aria-label="Four pillars of performance visualization">
+                            <defs>
+                                <linearGradient id="pillarsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#22C55E;stop-opacity:0.3" />
+                                    <stop offset="100%" style="stop-color:#22C55E;stop-opacity:0.1" />
+                                </linearGradient>
+                            </defs>
+
+                            
+                            <rect width="400" height="300" fill="#0F172A" />
+
+                            
+                            <rect x="20" y="80" width="70" height="180" fill="#3B82F6" opacity="0.3" rx="4" />
+                            <rect x="20" y="80" width="70" height="180" fill="url(#pillarsGradient)" rx="4" />
+                            <text x="55" y="55" font-size="24" text-anchor="middle" fill="#3B82F6">⚡</text>
+                            <text x="55" y="280" font-size="12" text-anchor="middle" fill="#9CA3AF"
+                                font-weight="600">Energy</text>
+
+                            
+                            <rect x="105" y="60" width="70" height="200" fill="#A855F7" opacity="0.3" rx="4" />
+                            <rect x="105" y="60" width="70" height="200" fill="url(#pillarsGradient)" rx="4" />
+                            <text x="140" y="35" font-size="24" text-anchor="middle" fill="#A855F7">🎯</text>
+                            <text x="140" y="280" font-size="12" text-anchor="middle" fill="#9CA3AF"
+                                font-weight="600">Focus</text>
+
+                            
+                            <rect x="190" y="100" width="70" height="160" fill="#22C55E" opacity="0.3" rx="4" />
+                            <rect x="190" y="100" width="70" height="160" fill="url(#pillarsGradient)" rx="4" />
+                            <text x="225" y="75" font-size="24" text-anchor="middle" fill="#22C55E">🌿</text>
+                            <text x="225" y="280" font-size="12" text-anchor="middle" fill="#9CA3AF"
+                                font-weight="600">Environment</text>
+
+                            
+                            <rect x="275" y="90" width="70" height="170" fill="#06B6D4" opacity="0.3" rx="4" />
+                            <rect x="275" y="90" width="70" height="170" fill="url(#pillarsGradient)" rx="4" />
+                            <text x="310" y="65" font-size="24" text-anchor="middle" fill="#06B6D4">✨</text>
+                            <text x="310" y="280" font-size="12" text-anchor="middle" fill="#9CA3AF"
+                                font-weight="600">Everyday</text>
+
+                            
+                            <line x1="30" y1="40" x2="370" y2="40" stroke="#22C55E" stroke-width="2" opacity="0.3" />
+                            <circle cx="30" cy="40" r="3" fill="#22C55E" />
+                            <circle cx="370" cy="40" r="3" fill="#22C55E" />
+                        </svg>
+                    </div>
+
+                    
+                    <div style="padding: 0;">
+                        <h2
+                            style="color: var(--accent-green); margin-top: 0; margin-bottom: 0.75rem; font-size: 1.4rem;">
+                            Four Pillars of Performance</h2>
+                        <p style="color: var(--text-muted); line-height: 1.6; margin-bottom: 1rem; font-size: 0.95rem;">
+                            Our habit library is organized into four key pillars that work together to optimize your
+                            daily performance and well-being.</p>
+                        <ul
+                            style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.75rem; margin: 0;">
+                            <li
+                                style="display: flex; gap: 0.75rem; color: var(--text-muted); align-items: flex-start; font-size: 0.9rem; line-height: 1.5;">
+                                <span
+                                    style="color: #3B82F6; font-weight: bold; font-size: 1rem; flex-shrink: 0; margin-top: 0.2rem;">⚡</span>
+                                <span><strong style="color: var(--accent-green); font-weight: 700;">Energy</strong> -
+                                    Peak physical and mental vitality</span>
+                            </li>
+                            <li
+                                style="display: flex; gap: 0.75rem; color: var(--text-muted); align-items: flex-start; font-size: 0.9rem; line-height: 1.5;">
+                                <span
+                                    style="color: #A855F7; font-weight: bold; font-size: 1rem; flex-shrink: 0; margin-top: 0.2rem;">🎯</span>
+                                <span><strong style="color: var(--accent-green); font-weight: 700;">Focus</strong> -
+                                    Deep work and concentration</span>
+                            </li>
+                            <li
+                                style="display: flex; gap: 0.75rem; color: var(--text-muted); align-items: flex-start; font-size: 0.9rem; line-height: 1.5;">
+                                <span
+                                    style="color: #22C55E; font-weight: bold; font-size: 1rem; flex-shrink: 0; margin-top: 0.2rem;">🌿</span>
+                                <span><strong style="color: var(--accent-green); font-weight: 700;">Environment</strong>
+                                    - Optimal settings and spaces</span>
+                            </li>
+                            <li
+                                style="display: flex; gap: 0.75rem; color: var(--text-muted); align-items: flex-start; font-size: 0.9rem; line-height: 1.5;">
+                                <span
+                                    style="color: #06B6D4; font-weight: bold; font-size: 1rem; flex-shrink: 0; margin-top: 0.2rem;">✨</span>
+                                <span><strong style="color: var(--accent-green); font-weight: 700;">Everyday
+                                        Habits</strong> - Consistent practices</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section style="padding: 3rem 0; border-bottom: 1px solid var(--border); background-color: var(--surface);">
+            <div class="container">
+                <p
+                    style="text-align: center; color: var(--muted-gray); margin-bottom: 2rem; font-weight: 600; font-size: 1.05rem;">
+                    Filter by pillar:</p>
+                <div
+                    style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; max-width: 800px; margin: 0 auto;">
+                    <button class="filter-btn active" data-filter="all">All Habits (20)</button>
+                    <button class="filter-btn" data-filter="energy">Energy</button>
+                    <button class="filter-btn" data-filter="focus">Focus</button>
+                    <button class="filter-btn" data-filter="environment">Environment</button>
+                    <button class="filter-btn" data-filter="everyday-habits">Everyday Habits</button>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="feature-preview habit-preview">
+            <div class="container">
+                <div class="habits-grid" id="habits-library">
+                    
+                    <div class="habit-card" data-pillar="energy">
+                        <h4>The 10-Minute Morning Reset</h4>
+                        <p class="pillar-tag energy">Energy</p>
+                        <p>Start your day with hydration, sunlight exposure, and gentle movement to set energy levels
+                            for peak performance.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 10 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="1">♡ Save</button>
+                    </div>
+                    <div class="habit-card" data-pillar="energy">
+                        <h4>Afternoon Energy Boost</h4>
+                        <p class="pillar-tag energy">Energy</p>
+                        <p>Combat the 3 PM energy dip with a 5-minute walk, water, and a healthy snack to maintain
+                            consistent productivity.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 5 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="4">♡ Save</button>
+                    </div>
+                    <div class="habit-card" data-pillar="energy">
+                        <h4>Strategic Nutrition Timing</h4>
+                        <p class="pillar-tag energy">Energy</p>
+                        <p>Eat balanced meals with protein and complex carbs every 3-4 hours to stabilize blood sugar
+                            and energy levels.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 30 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="7">♡ Save</button>
+                    </div>
+
+                    
+                    <div class="habit-card" data-pillar="focus">
+                        <h4>Deep Work Sessions</h4>
+                        <p class="pillar-tag focus">Focus</p>
+                        <p>Use focused 90-minute work blocks with strategic breaks to maintain deep concentration
+                            without burnout.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 90 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="2">♡ Save</button>
+                    </div>
+                    <div class="habit-card" data-pillar="focus">
+                        <h4>Distraction Elimination</h4>
+                        <p class="pillar-tag focus">Focus</p>
+                        <p>Turn off notifications, silence your phone, and close unnecessary tabs during deep work to
+                            protect your focus.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 5 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="5">♡ Save</button>
+                    </div>
+                    <div class="habit-card" data-pillar="focus">
+                        <h4>The Two-Minute Rule</h4>
+                        <p class="pillar-tag focus">Focus</p>
+                        <p>If a task takes less than two minutes, do it immediately to prevent small tasks from
+                            accumulating and draining focus.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 2 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="8">♡ Save</button>
+                    </div>
+
+                    
+                    <div class="habit-card" data-pillar="environment">
+                        <h4>Evening Wind-Down</h4>
+                        <p class="pillar-tag environment">Environment</p>
+                        <p>Dim lights, reduce screen time, and prepare your space for quality sleep 30 minutes before
+                            bed.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 30 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="3">♡ Save</button>
+                    </div>
+                    <div class="habit-card" data-pillar="environment">
+                        <h4>Clean Workspace Reset</h4>
+                        <p class="pillar-tag environment">Environment</p>
+                        <p>Spend 5 minutes clearing your desk and organizing materials to create a focused,
+                            distraction-free work zone.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 5 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="6">♡ Save</button>
+                    </div>
+                    <div class="habit-card" data-pillar="environment">
+                        <h4>Optimal Lighting Setup</h4>
+                        <p class="pillar-tag environment">Environment</p>
+                        <p>Use natural light during the day and warm, dim lighting in the evening to support circadian
+                            rhythm and productivity.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 10 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="9">♡ Save</button>
+                    </div>
+
+                    
+                    <div class="habit-card" data-pillar="everyday-habits">
+                        <h4>Daily Gratitude Practice</h4>
+                        <p class="pillar-tag everyday-habits">Everyday Habits</p>
+                        <p>Spend 2 minutes each morning noting three things you're grateful for to boost mood and mental
+                            resilience.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 2 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="10">♡ Save</button>
+                    </div>
+                    <div class="habit-card" data-pillar="everyday-habits">
+                        <h4>Movement Breaks Every Hour</h4>
+                        <p class="pillar-tag everyday-habits">Everyday Habits</p>
+                        <p>Stand and stretch or take a short walk every hour to maintain circulation, mood, and mental
+                            sharpness.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 5 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="11">♡ Save</button>
+                    </div>
+                    <div class="habit-card" data-pillar="everyday-habits">
+                        <h4>Evening Reflection Journal</h4>
+                        <p class="pillar-tag everyday-habits">Everyday Habits</p>
+                        <p>Spend 5 minutes each evening reviewing wins, challenges, and lessons learned to improve
+                            continuously.</p>
+                        <div class="habit-meta">
+                            <span class="habit-duration">⏱ 5 min</span>
+                        </div>
+                        <button class="favorite-btn" data-habit-id="12">♡ Save</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <div id="habit-modal" class="modal" aria-hidden="true">
+            <div class="modal-content">
+                <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 High Performance Living Toolkit. All rights reserved.</p>
+            <p><a href="attributions.html">Attributions</a></p>
+            <p><a href="https://www.youtube.com/watch?v=3SwIbni4UNo" target="_blank">Project Demo Video</a></p>
+            <p class="footer-note">This toolkit is for educational purposes and is not a substitute for professional
+                health or medical advice.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/habit-library.js"></script>
+</body>
+
+</html>
+

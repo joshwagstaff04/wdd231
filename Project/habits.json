@@ -1,0 +1,184 @@
+{
+    "habits": [
+        {
+            "id": "1",
+            "title": "The 10-Minute Morning Reset",
+            "pillar": "energy",
+            "description": "Start your day with hydration, sunlight exposure, and gentle movement to set energy levels for peak performance.",
+            "duration": "10 minutes",
+            "difficulty": "Beginner",
+            "benefit": "Improved morning energy and mental clarity"
+        },
+        {
+            "id": "2",
+            "title": "Deep Work Sessions",
+            "pillar": "focus",
+            "description": "Use focused 90-minute work blocks with strategic breaks to maintain deep concentration without burnout.",
+            "duration": "90 minutes",
+            "difficulty": "Intermediate",
+            "benefit": "Enhanced productivity and focus"
+        },
+        {
+            "id": "3",
+            "title": "Evening Wind-Down",
+            "pillar": "environment",
+            "description": "Dim lights, reduce screen time, and prepare your space for quality sleep 30 minutes before bed.",
+            "duration": "30 minutes",
+            "difficulty": "Beginner",
+            "benefit": "Better sleep quality and recovery"
+        },
+        {
+            "id": "4",
+            "title": "Afternoon Energy Boost",
+            "pillar": "energy",
+            "description": "Combat the 3 PM energy dip with a 5-minute walk, water, and a healthy snack to maintain consistent productivity.",
+            "duration": "5 minutes",
+            "difficulty": "Beginner",
+            "benefit": "Sustained afternoon energy"
+        },
+        {
+            "id": "5",
+            "title": "Distraction Elimination",
+            "pillar": "focus",
+            "description": "Turn off notifications, silence your phone, and close unnecessary tabs during deep work to protect your focus.",
+            "duration": "2 minutes prep",
+            "difficulty": "Beginner",
+            "benefit": "Reduced distractions and better focus"
+        },
+        {
+            "id": "6",
+            "title": "Clean Workspace Reset",
+            "pillar": "environment",
+            "description": "Spend 5 minutes clearing your desk and organizing materials to create a focused, distraction-free work zone.",
+            "duration": "5 minutes",
+            "difficulty": "Beginner",
+            "benefit": "Improved focus through environmental clarity"
+        },
+        {
+            "id": "7",
+            "title": "Strategic Nutrition Timing",
+            "pillar": "energy",
+            "description": "Eat balanced meals with protein and complex carbs every 3-4 hours to stabilize blood sugar and energy levels.",
+            "duration": "Ongoing",
+            "difficulty": "Intermediate",
+            "benefit": "Stable energy throughout the day"
+        },
+        {
+            "id": "8",
+            "title": "The Two-Minute Rule",
+            "pillar": "focus",
+            "description": "If a task takes less than two minutes, do it immediately to prevent small tasks from accumulating and draining focus.",
+            "duration": "Variable",
+            "difficulty": "Beginner",
+            "benefit": "Reduced mental clutter and procrastination"
+        },
+        {
+            "id": "9",
+            "title": "Optimal Lighting Setup",
+            "pillar": "environment",
+            "description": "Use natural light during the day and warm, dim lighting in the evening to support circadian rhythm and productivity.",
+            "duration": "One-time setup",
+            "difficulty": "Intermediate",
+            "benefit": "Improved circadian rhythm and alertness"
+        },
+        {
+            "id": "10",
+            "title": "Daily Gratitude Practice",
+            "pillar": "everyday-habits",
+            "description": "Spend 2 minutes each morning noting three things you're grateful for to boost mood and mental resilience.",
+            "duration": "2 minutes",
+            "difficulty": "Beginner",
+            "benefit": "Improved mood and psychological resilience"
+        },
+        {
+            "id": "11",
+            "title": "Movement Breaks Every Hour",
+            "pillar": "everyday-habits",
+            "description": "Stand and stretch or take a short walk every hour to maintain circulation, mood, and mental sharpness.",
+            "duration": "5 minutes per break",
+            "difficulty": "Beginner",
+            "benefit": "Better circulation and sustained mental sharpness"
+        },
+        {
+            "id": "12",
+            "title": "Evening Reflection Journal",
+            "pillar": "everyday-habits",
+            "description": "Spend 5 minutes each evening reviewing wins, challenges, and lessons learned to improve continuously.",
+            "duration": "5 minutes",
+            "difficulty": "Beginner",
+            "benefit": "Continuous improvement and self-awareness"
+        },
+        {
+            "id": "13",
+            "title": "Hydration Tracking",
+            "pillar": "energy",
+            "description": "Drink water consistently throughout the day to maintain cognitive function and sustained energy levels.",
+            "duration": "Ongoing",
+            "difficulty": "Beginner",
+            "benefit": "Enhanced mental clarity and energy"
+        },
+        {
+            "id": "14",
+            "title": "Time Blocking Calendar",
+            "pillar": "focus",
+            "description": "Schedule specific tasks and deep work sessions into your calendar to protect focused time and increase accountability.",
+            "duration": "15 minutes setup",
+            "difficulty": "Intermediate",
+            "benefit": "Structured productivity and accountability"
+        },
+        {
+            "id": "15",
+            "title": "Digital Detox Hour",
+            "pillar": "environment",
+            "description": "Designate one hour daily without screens to reduce digital fatigue and mental clutter.",
+            "duration": "60 minutes",
+            "difficulty": "Intermediate",
+            "benefit": "Reduced screen fatigue and mental clarity"
+        },
+        {
+            "id": "16",
+            "title": "Power Nap Protocol",
+            "pillar": "energy",
+            "description": "Take a strategic 20-minute nap in early afternoon to restore energy and improve cognitive performance.",
+            "duration": "20 minutes",
+            "difficulty": "Beginner",
+            "benefit": "Afternoon energy restoration and focus"
+        },
+        {
+            "id": "17",
+            "title": "Priority Matrix",
+            "pillar": "focus",
+            "description": "Identify your top 3 priorities each morning using the Eisenhower Matrix to focus on what truly matters.",
+            "duration": "5 minutes",
+            "difficulty": "Beginner",
+            "benefit": "Clarity on important tasks and reduced overwhelm"
+        },
+        {
+            "id": "18",
+            "title": "Workspace Ergonomics",
+            "pillar": "environment",
+            "description": "Set up your desk with proper monitor height, chair support, and keyboard position to prevent strain and fatigue.",
+            "duration": "One-time setup",
+            "difficulty": "Intermediate",
+            "benefit": "Reduced physical strain and improved comfort"
+        },
+        {
+            "id": "19",
+            "title": "Cold Water Exposure",
+            "pillar": "energy",
+            "description": "Start your morning with a cold shower or splash of cold water to activate your nervous system and boost alertness.",
+            "duration": "2-5 minutes",
+            "difficulty": "Intermediate",
+            "benefit": "Increased alertness and mental resilience"
+        },
+        {
+            "id": "20",
+            "title": "Mindful Meditation",
+            "pillar": "everyday-habits",
+            "description": "Practice 10 minutes of guided meditation daily to reduce stress, improve focus, and enhance emotional regulation.",
+            "duration": "10 minutes",
+            "difficulty": "Beginner",
+            "benefit": "Reduced stress and improved emotional control"
+        }
+    ]
+}
